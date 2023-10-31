@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">freeCodeCamp Survey Form
+    <p class="description" id="description">
+        Thank you for taking the time to help us improve the platform
+    </p>
+</h1>
+<form id="survey-form">
+    <fieldset>
+        <legend>General Information</legend>
+        <label id="name-label" class="block_items"> Name
+            <input id="name" class="block_items" type="text" required placeholder="Enter your name">
+        </label>
+        <label id="email-label" class="block_items"> Email
+            <input id="email" class="block_items" type="email" required placeholder="Enter you Email">
+        </label>
+        <label id="number-label" class="block_items"> Age (optional)
+            <input id="number" class="block_items" type="number" required placeholder="Age" min="13" max="120">
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Which option best describes your current role?👔
+        </legend>
+        <select id="dropdown">
+            <option class="option">Select Current Role</option>
+            <option class="option">Junior Developer</option>
+            <option class="option">Developer</option>
+            <option class="option">Senior Developer</option>
+            <option class="option">Software Architect</option>
+            <option class="option">Chief Technology Officer</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <label class="block_items">
+            <input name="radio1-radio2-radio3" type="radio" value="radio1">
+            Likely
+        </label>
+        <label class="block_items">
+            <input name="radio1-radio2-radio3" type="radio" value="radio2">
+            Unlikely
+        </label>
+        <label class="block_items">
+            <input name="radio1-radio2-radio3" type="radio" value="radio2">
+            Very Likely
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Check your favourite activity👨‍💻</legend>
+        <label class="block_items">
+            <input type="checkbox" value="checkbox1">
+            Programming
+        </label>
+        <label class="block_items">
+            <input type="checkbox" value="checkbox2">
+            Coding
+        </label>
+        <label class="block_items">
+            <input type="checkbox" value="checkbox3">
+            Projects
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Write a review below ⬇️</legend>
+        <textarea>
+    </textarea>
+    </fieldset>
+    <button id="submit" type="submit">
+        Submit
+    </button>
+
+</form>
