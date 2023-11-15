@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ea;
+    color: #333;
+}
+
+header {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2ecc71;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0 10px;
+}
+
+#video {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 18px;
+    }
+
+    #nav-bar a {
+        padding: 10px;
+    }
+
+}
